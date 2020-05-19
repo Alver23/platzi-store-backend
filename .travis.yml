@@ -1,0 +1,27 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - 12
+git:
+  depth: 3
+script:
+  - npm test
+notifications:
+  slack: astrosoftsolutions:sHcBx8RAqic6VtZgN9e8AM8K
+  email:
+    recipients:
+      - alver01.12.1990@gmail.com
+      - viga.23@hotmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  keep-history: true
+  api_key: apiKey
+  app: plati-store-backend
+  on:
+    repo: Alver23/platzi-store-backend
