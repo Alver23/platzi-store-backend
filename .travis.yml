@@ -21,7 +21,7 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep-history: true
-  api_key: apiKey
+  api_key: 3b144b37-5e8a-4a55-af89-106a4c56c3f6
   app: plati-store-backend
   on:
     repo: Alver23/platzi-store-backend
