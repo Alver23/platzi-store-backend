@@ -22,7 +22,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep-history: true
-  api_key: 3b144b37-5e8a-4a55-af89-106a4c56c3f6
+  api_key:
+    "q/g/TfaDiH3GdAPtCwj7JtpfG+ng8W8TjeoG0/VJ1F+HFuEdevegRmarzCluUooibX2MDAFDoVoZ1fRb9yDPaAWk3aGFG/5rfs/n+8kzAlevl0zk/9ys9pN6FhY7CspXebxP60n7zmPGeiKLtjdEscoDppElAo4kWtDGybS7lWBYnarpt+GjwTV6Rb0emprx2XUr0HIp+UEwBioy/vLe9kyple7AUzGKt6+BegCH9OGu/r16S9qvq17mEJt6YIVz1WaUKKZky8uUVQ5VMkJTNXC8qfoUFAYnQvVpKazLQAphu/ZoacWrMnc9QDCOEZ36FtOqSkr8VBRKuy1rpXKHBUt5Qrdxxl7Zj2rbbkMaT7oyesm43ro9xyw41HivwRkopybkyQ5UW+ZKLLDSDdciP2TeIgvJ/fCWQgy1qaqWdBdg4uSg/AtdSklt9suHfI13Z9Sj3coP4sqo9qUZhzq5BOKHlfMJSwwW6iYH8e3wkbfcXbav46FeAq/FBBhUK4fu3i5GtzkNE2KFHv0PXuOws2ScsCJh8JdoNJhxXhQkozJezJAEyTc1f7fIJDiAQrRjrkpwml7svRRyMeiMEbUTo91lrK/Q/hDWAwlmiEsOOHL0ww2ji00EvBk/7NqG4OAbDdSj/pHa1luOO4j6hv2Wsd46FahrbD/gn7BCR/ExOas="
   app: platzi-store-backed
   on:
     repo: Alver23/platzi-store-backend
