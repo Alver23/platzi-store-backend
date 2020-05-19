@@ -1,28 +1,28 @@
 language: node_js
 cache:
   directories:
-    - node_modules
-    - ~/.npm
+  - node_modules
+  - "~/.npm"
 node_js:
-  - 12
+- 12
 git:
   depth: 3
 script:
-  - npm test
+- npm test
 notifications:
-  slack:
-    "JdW0zRESY9kP3IfnxfXBj8gdDWFt+bJ31Xdf0zoXdq+eAlV1hKQPrA5RVXi5i0mE4em6/+R1jbEYlQWqmEapYB8FX1tftPKXSHFeWIU2qmmlx9J4tK/QIfiwM+BTtYIyJQSzG2BeIOUdoxt5GI+KLFIyAUg2clJv6D3UcujT+4A+wqrcRYDUCLKzo5KZs64bIFEIKm87WQfc5yyupKtVIzKNSRVnnHyy/fKSmrlEKsGRef6/C9J2hSwa2IEqZe+XlaeVwJuqOFEJvSB3atICVdKL1MwCP9uCTLHTFAQiGHT3zBmQpw490Pppnf9upP860XfjvS8USIZlfA5Bex5kNhFFfVlCOQD3mxsRsXm42GY55D2Wzd71rsQfRkRLBO/ejW7jft9mbP7qpUki8yxoFo7ZxqBd8FiUMeLQwban+2WD2/5uwXqxU6ohu3vvbTMf22Z1xJZOUyenLV1mICWVwfwMX/e4cfxVkEOzhgeqMu9iUhURnvMfboCTbkSrYg2bdslzEd7IVsUPKi8uiKEhAnZRMisyoi3RN1gddMQ6TnnyxPSlc1GuN2jwf4ZJ4zdcHa6k/B6kgWK1Kr2nlGHSdl1v2QQOdro1gb1B7VggG/5x4L1tncULQIXnHYNFJSWKvSdUQh0Z4g57i7fn2ZM+vtPtTPMaoBsJD01YKpuYBcM="
+  slack: JdW0zRESY9kP3IfnxfXBj8gdDWFt+bJ31Xdf0zoXdq+eAlV1hKQPrA5RVXi5i0mE4em6/+R1jbEYlQWqmEapYB8FX1tftPKXSHFeWIU2qmmlx9J4tK/QIfiwM+BTtYIyJQSzG2BeIOUdoxt5GI+KLFIyAUg2clJv6D3UcujT+4A+wqrcRYDUCLKzo5KZs64bIFEIKm87WQfc5yyupKtVIzKNSRVnnHyy/fKSmrlEKsGRef6/C9J2hSwa2IEqZe+XlaeVwJuqOFEJvSB3atICVdKL1MwCP9uCTLHTFAQiGHT3zBmQpw490Pppnf9upP860XfjvS8USIZlfA5Bex5kNhFFfVlCOQD3mxsRsXm42GY55D2Wzd71rsQfRkRLBO/ejW7jft9mbP7qpUki8yxoFo7ZxqBd8FiUMeLQwban+2WD2/5uwXqxU6ohu3vvbTMf22Z1xJZOUyenLV1mICWVwfwMX/e4cfxVkEOzhgeqMu9iUhURnvMfboCTbkSrYg2bdslzEd7IVsUPKi8uiKEhAnZRMisyoi3RN1gddMQ6TnnyxPSlc1GuN2jwf4ZJ4zdcHa6k/B6kgWK1Kr2nlGHSdl1v2QQOdro1gb1B7VggG/5x4L1tncULQIXnHYNFJSWKvSdUQh0Z4g57i7fn2ZM+vtPtTPMaoBsJD01YKpuYBcM=
   email:
     recipients:
-      - alver01.12.1990@gmail.com
-      - viga.23@hotmail.com
+    - alver01.12.1990@gmail.com
+    - viga.23@hotmail.com
     on_success: always
     on_failure: always
 deploy:
   provider: heroku
   skip_cleanup: true
   keep-history: true
-  api_key: 3b144b37-5e8a-4a55-af89-106a4c56c3f6
+  api_key:
+    secure: iehZgzEFoAZDGg0goIDlGE+Iukq2A5zKKK5k91FTMBDN0nIhZctUPqLMY8sT01MlNxzwjfy/nbaQWdJ22n89Lk6GjPwB7LQP9CB5ukiOcijlTzrJ82tsZ+v0ppTyTNw4dObssl3DA7QtSOTxPSzd0fjM56VAbnQVRLFnmWubr1g0ox8XOGWpVVOAWNcS/IOdeBoGjbXJLL/uW9o1Egoi2k1a0o2Pf3fJWYoZXw7UE8uA+JBEL6TJKs7G8Rk3+ulve0o07Gy6g+vixsRmSoRWngrI7voh58kBKsDoq7mkdXMwBV/8STnC6dfZsoEcBDgm8Jbp/fY8VmmmnEz2S7mShO5oqDc8STgZVUG63L5fXZL2IwzVv5O+b7G/wMBG4CNcjsVrA7lszeKeQfvhDVhAAthesfqgI1J91BOb6bp2l8lyimDWaGGi0+B7PtzbtP3mSb1LazlWjRVp1ff2aLK9QaFj2INUKaRnoK3JBUD3+XnHEOQsXdlxue+FbdX8aNxLviEDbePjORkRSYW1ZmBHO3pw/iyJtoI+dmrtos4bs4dLwTvCWaYs28f6xtJCT5/xCvv0v2YB4qModS599dss0bEXDSNdNskLiXOkl6Zg4+U4+eLm20x4i+mXHzCarIkCNhmTFECGgrerxkr0aiSoO1OedviwjZeRPTXKeL6mffY=
   app: platzi-store-backed
   on:
     repo: Alver23/platzi-store-backend
