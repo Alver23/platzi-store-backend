@@ -10,7 +10,8 @@ git:
 script:
   - npm test
 notifications:
-  slack: astrosoftsolutions:sHcBx8RAqic6VtZgN9e8AM8K
+  slack:
+    "JdW0zRESY9kP3IfnxfXBj8gdDWFt+bJ31Xdf0zoXdq+eAlV1hKQPrA5RVXi5i0mE4em6/+R1jbEYlQWqmEapYB8FX1tftPKXSHFeWIU2qmmlx9J4tK/QIfiwM+BTtYIyJQSzG2BeIOUdoxt5GI+KLFIyAUg2clJv6D3UcujT+4A+wqrcRYDUCLKzo5KZs64bIFEIKm87WQfc5yyupKtVIzKNSRVnnHyy/fKSmrlEKsGRef6/C9J2hSwa2IEqZe+XlaeVwJuqOFEJvSB3atICVdKL1MwCP9uCTLHTFAQiGHT3zBmQpw490Pppnf9upP860XfjvS8USIZlfA5Bex5kNhFFfVlCOQD3mxsRsXm42GY55D2Wzd71rsQfRkRLBO/ejW7jft9mbP7qpUki8yxoFo7ZxqBd8FiUMeLQwban+2WD2/5uwXqxU6ohu3vvbTMf22Z1xJZOUyenLV1mICWVwfwMX/e4cfxVkEOzhgeqMu9iUhURnvMfboCTbkSrYg2bdslzEd7IVsUPKi8uiKEhAnZRMisyoi3RN1gddMQ6TnnyxPSlc1GuN2jwf4ZJ4zdcHa6k/B6kgWK1Kr2nlGHSdl1v2QQOdro1gb1B7VggG/5x4L1tncULQIXnHYNFJSWKvSdUQh0Z4g57i7fn2ZM+vtPtTPMaoBsJD01YKpuYBcM="
   email:
     recipients:
       - alver01.12.1990@gmail.com
@@ -21,7 +22,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep-history: true
-  api_key: 3b144b37-5e8a-4a55-af89-106a4c56c3f6
+  api_key:
+    "ByltjnCLWLJmYTSbksGXeohCv2YoDu9JuRuRqqhzJ5fcHpMxqHiC/tRs2dEjuEdGoko7m04U4HIEQPcx+StJ57pKhYgmnHc7N+X9HGp0jTiSgwsUphYcnsGODSRwNtNv2idjnVfu2CWyzPDG0EZ3RXy5elwrvbjTxzbLH+YkEJx5nAj9NIVkuEY5ZRuKP8RnDWKAcjefahHMGlCoBb6S8uVXRFoHka0ngd9rpRPjn1EoXfnGrzK+fUwHnhdD2nnpM13/GS+/a/hO+IWchyMGwDmdEyFmJqR5zVVR9U+9utAsnoFi+YaFn6NjckyJbU1gRElBaP7O62hUGIC+W5apVyfpppkWaq4Ow7gDc2b6K2jhKaYLHu78B180qL8npdy6fKxCP1Uvgj7dK5Jsa8PsTOfqAlWPfXTdsS8+eozt9GKUzbpJkcSgpBTehTqo7IxGRdiJMKxDiGt4Id6QAAHyR0GecWxCepZB8jESm0Bjb9Z+NdbKUXKU62+g0eDR3MjT8LLQSnvj2VBaSexwTndE6aMewQX3aQuHGRRp+eqC3DquGEF+Tn9lTRgCLaxAK/Sy0y5qd2d9Ni/+HQ3Tv3yfFJz3W9D7R7JKqMsc+8XSL0qKAO2pYWhGGgA83wW23LY07OYtM4j5EojSBs1Xa5yPjliL+o0x2XNabVwUPme1kyQ="
   app: platzi-store-backed
   on:
     repo: Alver23/platzi-store-backend
